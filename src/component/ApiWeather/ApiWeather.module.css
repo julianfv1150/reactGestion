@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.segundo{
+    grid-column: 4 / 5;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    justify-items: end;
+}
+.tercero div{
+    grid-column: 5 / 6;
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    justify-items: end;
+}

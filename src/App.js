@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
+import Cabecera from './component/Cabecera/Cabecera';
+import Menu from './component/Menu/Menu';
+import LoginForm from './component/LoginForm/LoginForm';
 import './App.css';
+
+const menuOpt = [
+  {nombre:"Home"}, 
+  {nombre:"Login"},
+  {nombre:"Details"}
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Cabecera />
+        <LoginForm />
+        <Menu options={menuOpt}/>
     </div>
   );
 }

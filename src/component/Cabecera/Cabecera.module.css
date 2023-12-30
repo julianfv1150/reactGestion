@@ -1,0 +1,8 @@
+.grid2xauto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.identificar{
+        border:  2px black;
+}
