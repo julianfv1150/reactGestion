@@ -57,6 +57,8 @@ const Form = () => {
     return(
         <div className={style.formContainer}>
             <div></div>
+            <div></div>
+            <div></div>
             <form 
                 onSubmit={handleSubmit} 
                 className={style.gridForm}>
@@ -94,7 +96,6 @@ const Form = () => {
                     <button className={style.formBtn} type="submit" name="btnSubmit">Ingresar</button>
                 </div>
             </form>
-            <div></div>
         </div>
     );
 }

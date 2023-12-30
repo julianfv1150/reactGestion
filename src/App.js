@@ -1,8 +1,8 @@
 import React from 'react';
-import Cabecera from './component/Cabecera/Cabecera';
-import Menu from './component/Menu/Menu';
-import LoginForm from './component/LoginForm/LoginForm';
 import './App.css';
+import Cabecera from './component/Cabecera/Cabecera';
+import LoginForm from './component/LoginForm/LoginForm';
+import Footer from './component/Footer/Footer'
 
 const menuOpt = [
   {nombre:"Home"}, 
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
         <Cabecera />
         <LoginForm />
-        <Menu options={menuOpt}/>
+        <Footer />
     </div>
   );
 }
